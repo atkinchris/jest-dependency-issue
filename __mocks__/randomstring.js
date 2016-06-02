@@ -1,3 +1,3 @@
 export default {
-  generate: () => 'Yarp.'
+  generate: () => 'Not random.'
 }
