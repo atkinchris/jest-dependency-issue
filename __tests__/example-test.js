@@ -1,7 +1,8 @@
-import randomstring from 'randomstring';
+jest.unmock('../echo');
+const echo = require('../echo');
 
-jest.unmock('randomstring');
-
-it('should generate a string', () => {
-  expect(randomstring.generate()).toEqual('Not random.');
+it('should be defined', () => {
+  const result = echo();
+  console.log(result)
+  expect(result).toBeDefined();
 });
