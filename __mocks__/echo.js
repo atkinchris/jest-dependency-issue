@@ -1,1 +1,5 @@
-module.exports = () => 'mocked';
+module.exports = {
+  say: function() {
+    return 'Mocked!';
+  }
+};

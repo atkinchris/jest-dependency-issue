@@ -6,7 +6,7 @@
     "test": "jest --no-cache"
   },
   "dependencies": {
-    "jest-cli": "^12.1.1",
-    "randomstring": "^1.1.5"
+    "echo": "file:echo",
+    "jest-cli": "^12.1.1"
   }
 }
