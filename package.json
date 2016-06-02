@@ -6,7 +6,7 @@
     "test": "jest --no-cache"
   },
   "dependencies": {
-    "echo": "file:echo",
+    "hello": "file:hello",
     "jest-cli": "^12.1.1"
   }
 }

@@ -1,6 +1,6 @@
-jest.unmock('echo');
-const echo = require('echo');
+jest.unmock('hello');
+const hello = require('hello');
 
-it('should be defined', () => {
-  expect(echo.say('Hello')).toEqual('Hello');
+it('should return Hello', () => {
+  expect(hello()).toEqual('Hello');
 });
