@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "jest --no-cache"
+    "test": "jest --no-cache",
+    "debug": "node-debug --cli $(which jest) --runInBand"
   },
   "dependencies": {
     "hello": "file:hello",
-    "jest-cli": "^12.1.1"
+    "jest-cli": "^12.1.1",
+    "node-inspector": "^0.12.8"
   }
 }
