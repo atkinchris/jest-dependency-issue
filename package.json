@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "hello": "file:hello",
-    "jest-cli": "^12.1.1",
+    "jest-cli": "^14.0.1",
     "node-inspector": "^0.12.8"
   }
 }
