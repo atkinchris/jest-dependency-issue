@@ -1,4 +1,5 @@
 debugger;
+jest.enableAutomock();
 jest.unmock('hello');
 const hello = require('hello');
 
